@@ -2,7 +2,7 @@
   "name": "client",
   "version": "0.1.0",
   "homepage": "http://127.0.0.1:3000",
-  "proxy": "http://127.0.0.1:4000",
+  "proxy": "https://cute-rabanadas-29c5ce.netlify.app",
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.11.1",
