@@ -2,7 +2,7 @@
   "name": "client",
   "version": "0.1.0",
   "homepage": "https://warm-pudding-613ffe.netlify.app",
-  "proxy": "https://cute-rabanadas-29c5ce.netlify.app",
+  "proxy": "https://todoback1-kcfc.onrender.com",
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.11.1",
