@@ -1,7 +1,7 @@
 {
   "name": "client",
   "version": "0.1.0",
-  "homepage": "http://127.0.0.1:3000",
+  "homepage": "https://warm-pudding-613ffe.netlify.app/",
   "proxy": "https://cute-rabanadas-29c5ce.netlify.app",
   "private": true,
   "dependencies": {
