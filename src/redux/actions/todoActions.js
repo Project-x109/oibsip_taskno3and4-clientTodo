@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const backendServerURL = "http://localhost:4000";
+const backendServerURL = "https://cute-rabanadas-29c5ce.netlify.app";
 
 export const TODO_ERROR = "TODO_ERROR";
 export const TODO_SUCCESS = "TODO_SUCCESS";
