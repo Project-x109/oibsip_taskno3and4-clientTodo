@@ -13,17 +13,16 @@ function AppRouter() {
   const isLoggedIn = localStorage.getItem("isLoggedIn");
   console.log(isLoggedIn)
   return (
-    <BrowserRouter>
-      <Routes>
-        <Route path="/" element={!isLoggedIn ? <Login /> : <Navigate to="/todo" />} />
-        <Route path="/register" element={<Register />} />
-        <Route path="/forgetpassword" element={<ForgotPassword />} />
-        <Route path="/resetpassword" element={<ResetPassword />} />
-        <Route path="/todo" element={<ToDo />} />
-        <Route path="/activetodo" element={<AciveTodo />} />
-        <Route path="/completedtodo" element={<CompletedTodo />} />
-      </Routes>
-    </BrowserRouter>
+
+    <Routes>
+      <Route path="/" element={!isLoggedIn ? <Login /> : <Navigate to="/todo" />} />
+      <Route path="/register" element={<Register />} />
+      <Route path="/forgetpassword" element={<ForgotPassword />} />
+      <Route path="/resetpassword" element={<ResetPassword />} />
+      <Route path="/todo" element={<ToDo />} />
+      <Route path="/activetodo" element={<AciveTodo />} />
+      <Route path="/completedtodo" element={<CompletedTodo />} />
+    </Routes>
   );
 }
 export default AppRouter;
