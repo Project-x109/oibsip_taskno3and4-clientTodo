@@ -101,6 +101,7 @@ export const login = (loginData, csrfToken) => async (dispatch) => {
         headers
       }
     );
+    console.log(loginResponse.data)
     if (loginResponse.data.username) {
       /*  localStorage.setItem("isLoggedIn", "true"); */
       localStorage.setItem('isLoggedIn', loginResponse.data.token);

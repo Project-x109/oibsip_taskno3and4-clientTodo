@@ -28,6 +28,7 @@ export const todoLists = (csrfToken, isLoggedIn) => async (dispatch) => {
                 headers
             }
         );
+        console.log(todoListResponse.data)
         if (todoListResponse.data) {
             dispatch({ type: TODO_SUCCESS, payload: todoListResponse?.data });
         } else {
