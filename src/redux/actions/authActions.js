@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const backendServerURL = "https://todoback1-kcfc.onrender.com";
+const backendServerURL = "https://todoback-uxjd.onrender.com";
 
 export const REGISTER_SUCCESS = "REGISTER_SUCCESS";
 export const REGISTER_ERROR = "REGISTER_ERROR";
